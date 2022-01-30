@@ -39,6 +39,19 @@
                             </div>
                         </div>
 
+                        @if (config('captcha.sitekey') && config('captcha.secret'))
+                        <div class="row mb-3">
+                            <div class="col-md-6 offset-sm-4">
+                                {!! NoCaptcha::display() !!}
+                                @error('g-recaptcha-response')
+                                <span class="text-danger" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                            </div>
+                        </div>
+                        @endif
+
                         <div class="row mb-3">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
