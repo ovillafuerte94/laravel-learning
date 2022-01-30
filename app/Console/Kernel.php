@@ -17,6 +17,8 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('backup:clean --disable-notifications')->daily()->at('01:00');
         $schedule->command('backup:run --disable-notifications')->daily()->at('01:30');
+
+        $schedule->command('cloudflare:reload')->daily();
     }
 
     /**
