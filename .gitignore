@@ -13,4 +13,5 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+!/.vscode/extensions.json
 *.code-workspace
