@@ -15,7 +15,8 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.4",
         "rap2hpoutre/laravel-log-viewer": "^2.0",
-        "renatomarinho/laravel-page-speed": "^2.0"
+        "renatomarinho/laravel-page-speed": "^2.0",
+        "spatie/laravel-cookie-consent": "^3.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
