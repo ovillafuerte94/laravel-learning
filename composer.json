@@ -14,6 +14,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.4",
+        "monicahq/laravel-cloudflare": "^3.2",
         "rap2hpoutre/laravel-log-viewer": "^2.0",
         "renatomarinho/laravel-page-speed": "^2.0",
         "spatie/laravel-backup": "^7.7",
