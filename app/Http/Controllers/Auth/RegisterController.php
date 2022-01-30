@@ -49,6 +49,12 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+        if (config('captcha.sitekey') && config('captcha.secret')) {
+            $data = $data + [
+                'g-recaptcha-response' => ['required', 'captcha']
+            ];
+        }
+
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
