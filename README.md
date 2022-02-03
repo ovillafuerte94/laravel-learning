@@ -7,6 +7,7 @@ A simple learning project based on Laravel 8.x.
 * PHP version: >= 8.0
 * Composer
 * Node.js
+* Redis
 
 ## Clone repository and install packages
 
