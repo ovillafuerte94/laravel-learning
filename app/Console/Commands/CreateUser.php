@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Role;
 use App\Models\User;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
@@ -43,11 +44,15 @@ class CreateUser extends Command
         $email = $this->ask('Enter e-mail');
         $password = $this->ask('Enter password');
 
-        User::create([
+        $rol = $this->choice('Choose rol', Role::pluck('name', 'id')->toArray());
+
+        $user = User::create([
             'name'          => $name,
             'email'         => $email,
             'password'      => Hash::make($password)
         ]);
+
+        $user->assignRole($rol);
 
         $this->info('User ' . $name . ' was created.');
     }
