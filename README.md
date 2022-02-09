@@ -1,10 +1,10 @@
 ## Laravel Learning
 
-A simple learning project based on Laravel 8.x.
+A simple learning project based on Laravel 9.x.
 
 ## Requirements
 
-* PHP version: >= 8.0
+* PHP version: >= 8.0.2
 * Composer
 * Node.js
 * Redis
