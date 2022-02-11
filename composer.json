@@ -11,23 +11,11 @@
         {
             "type": "vcs",
             "url": "https://github.com/laravel-shift/laravel-page-speed.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/laravel-shift/laravel-log-viewer.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/laravel-shift/no-captcha.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ovillafuerte94/laravel-backup.git"
         }
     ],
     "require": {
         "php": "^8.0.2",
-        "anhskohbo/no-captcha": "dev-l9-compatibility",
+        "anhskohbo/no-captcha": "^3.4",
         "barryvdh/laravel-debugbar": "^3.6",
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
@@ -37,9 +25,9 @@
         "laravel/ui": "^3.4",
         "monicahq/laravel-cloudflare": "^3.2",
         "predis/predis": "^1.1",
-        "rap2hpoutre/laravel-log-viewer": "dev-l9-compatibility",
+        "rap2hpoutre/laravel-log-viewer": "^2.1",
         "renatomarinho/laravel-page-speed": "dev-l9-compatibility",
-        "spatie/laravel-backup": "dev-win-compatibility",
+        "spatie/laravel-backup": "^8.0.2",
         "spatie/laravel-cookie-consent": "^3.2",
         "spatie/laravel-permission": "^5.5"
     },
