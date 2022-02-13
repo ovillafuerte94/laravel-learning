@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "706d24720399f0e0824db6ceb552594d",
+    "content-hash": "4883682522959e747dfccc51f9931476",
     "packages": [
         {
             "name": "anhskohbo/no-captcha",
@@ -2548,6 +2548,64 @@
                 }
             ],
             "time": "2022-01-05T17:46:08+00:00"
+        },
+        {
+            "name": "protonemedia/laravel-eloquent-where-not",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/protonemedia/laravel-eloquent-where-not.git",
+                "reference": "35c1cdd597450b96cc415bfa52848b38b7535364"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/protonemedia/laravel-eloquent-where-not/zipball/35c1cdd597450b96cc415bfa52848b38b7535364",
+                "reference": "35c1cdd597450b96cc415bfa52848b38b7535364",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^8.76|^9.0",
+                "php": "^7.4|^8.0|^8.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench": "^6.23|^7.0",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ProtoneMedia\\LaravelEloquentWhereNot\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Baljet",
+                    "email": "pascal@protone.media",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel package to invert Eloquent scopes.",
+            "homepage": "https://github.com/protonemedia/laravel-eloquent-where-not",
+            "keywords": [
+                "laravel-eloquent-where-not",
+                "protonemedia"
+            ],
+            "support": {
+                "issues": "https://github.com/protonemedia/laravel-eloquent-where-not/issues",
+                "source": "https://github.com/protonemedia/laravel-eloquent-where-not/tree/1.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/pascalbaljet",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-02-04T09:46:15+00:00"
         },
         {
             "name": "psr/container",

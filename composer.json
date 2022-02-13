@@ -25,6 +25,7 @@
         "laravel/ui": "^3.4",
         "monicahq/laravel-cloudflare": "^3.2",
         "predis/predis": "^1.1",
+        "protonemedia/laravel-eloquent-where-not": "^1.2",
         "rap2hpoutre/laravel-log-viewer": "^2.1",
         "renatomarinho/laravel-page-speed": "dev-l9-compatibility",
         "spatie/laravel-backup": "^8.0.2",
