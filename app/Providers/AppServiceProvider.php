@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Pagination\Paginator;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\LengthAwarePaginator;
 use ProtoneMedia\LaravelEloquentWhereNot\WhereNot;
@@ -28,6 +29,7 @@ class AppServiceProvider extends ServiceProvider
     {
         WhereNot::addMacro();
         Paginator::useBootstrap();
+        Model::preventLazyLoading(!app()->isProduction());
 
         $this->app->resolving(LengthAwarePaginator::class, static function (LengthAwarePaginator $paginator) {
             return $paginator->withQueryString();
