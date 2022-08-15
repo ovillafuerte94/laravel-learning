@@ -24,6 +24,7 @@
         "renatomarinho/laravel-page-speed": "dev-master",
         "spatie/laravel-backup": "^8.0.2",
         "spatie/laravel-cookie-consent": "^3.2",
+        "spatie/laravel-honeypot": "^4.3",
         "spatie/laravel-permission": "^5.5"
     },
     "require-dev": {
