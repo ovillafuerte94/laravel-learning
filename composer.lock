@@ -3851,16 +3851,16 @@
         },
         {
             "name": "spatie/laravel-cookie-consent",
-            "version": "3.2.0",
+            "version": "3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-cookie-consent.git",
-                "reference": "01db8a42ba379489279b849d8def306e0886c04a"
+                "reference": "c7a9d87397bce8b1834d90fb5124bea036ff7358"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/01db8a42ba379489279b849d8def306e0886c04a",
-                "reference": "01db8a42ba379489279b849d8def306e0886c04a",
+                "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/c7a9d87397bce8b1834d90fb5124bea036ff7358",
+                "reference": "c7a9d87397bce8b1834d90fb5124bea036ff7358",
                 "shasum": ""
             },
             "require": {
@@ -3916,7 +3916,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-cookie-consent/tree/3.2.0"
+                "source": "https://github.com/spatie/laravel-cookie-consent/tree/3.2.2"
             },
             "funding": [
                 {
@@ -3924,7 +3924,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-01-14T07:57:12+00:00"
+            "time": "2022-06-03T08:33:36+00:00"
         },
         {
             "name": "spatie/laravel-honeypot",
