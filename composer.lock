@@ -3378,16 +3378,16 @@
         },
         {
             "name": "rap2hpoutre/laravel-log-viewer",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rap2hpoutre/laravel-log-viewer.git",
-                "reference": "199b4f21004c8f0c00fbc9222e0cedf1341b5e81"
+                "reference": "52e7c703a1e83cdae450f406c7d8472332dfb34e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rap2hpoutre/laravel-log-viewer/zipball/199b4f21004c8f0c00fbc9222e0cedf1341b5e81",
-                "reference": "199b4f21004c8f0c00fbc9222e0cedf1341b5e81",
+                "url": "https://api.github.com/repos/rap2hpoutre/laravel-log-viewer/zipball/52e7c703a1e83cdae450f406c7d8472332dfb34e",
+                "reference": "52e7c703a1e83cdae450f406c7d8472332dfb34e",
                 "shasum": ""
             },
             "require": {
@@ -3435,9 +3435,9 @@
             ],
             "support": {
                 "issues": "https://github.com/rap2hpoutre/laravel-log-viewer/issues",
-                "source": "https://github.com/rap2hpoutre/laravel-log-viewer/tree/v2.1.0"
+                "source": "https://github.com/rap2hpoutre/laravel-log-viewer/tree/v2.2.0"
             },
-            "time": "2022-02-10T07:16:16+00:00"
+            "time": "2022-04-06T15:15:40+00:00"
         },
         {
             "name": "renatomarinho/laravel-page-speed",
