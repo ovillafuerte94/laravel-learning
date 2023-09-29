@@ -30,6 +30,7 @@ class AppServiceProvider extends ServiceProvider
         WhereNot::addMacro();
         Paginator::useBootstrap();
         Model::preventLazyLoading(! app()->isProduction());
+        Model::preventSilentlyDiscardingAttributes(! app()->isProduction());
 
         $this->app->resolving(LengthAwarePaginator::class, static function (LengthAwarePaginator $paginator) {
             return $paginator->withQueryString();
