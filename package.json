@@ -19,7 +19,7 @@
         "postcss": "^8.4.30",
         "prettier": "3.0.3",
         "resolve-url-loader": "^5.0.0",
-        "sass": "^1.68.0",
+        "sass": "^1.69.4",
         "sass-loader": "^13.2.2"
     }
 }
